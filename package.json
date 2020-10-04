@@ -1,0 +1,13 @@
+{
+    "name": "kitto",
+    "version": "1.0.0",
+    "description": "kitto is simple webapplication project which will return request details in JSON",
+    "author": "Narendranath Panda <narenp29@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
+  }
