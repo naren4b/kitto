@@ -11,7 +11,6 @@ const app = express();
 app.get('/', (req, res) => {
   console.log(JSON.stringify(req.headers));
   res.send(JSON.stringify(req.headers));
-  res.sendFile('index.html');
 });
 
 app.listen(PORT, HOST);
