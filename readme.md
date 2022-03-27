@@ -10,5 +10,7 @@ docker build -t narenp/kitto:latest .
 ```
 
 To run this image 
+```
 docker run -d -p 8080:8080 --name kitto narenp/kitto:latest
+```
 
